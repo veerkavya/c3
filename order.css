@@ -1,0 +1,156 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html{
+  scroll-behavior:smooth;
+    position:relative;
+    
+    margin:0%;
+    padding:0%;
+    height: 100%;
+}
+.bgg p{
+    font-family:'limelight';font-size:18px;color: rgba(27, 15, 7, 0.8);position:relative;top:55%;left:9% ;
+
+}
+.hovbutton{
+    color:antiquewhite;font-family:'limelight' ;background-color:  rgba(27, 15, 7, 0.9);padding:2%;font-size:18px;border-radius: 20px;position: relative;top:-35%;left:20%;white-space: nowrap;}
+
+img.line111{
+    position:relative;top:-60px;left:7%;
+   
+}
+.cofeeim{
+    position:relative;
+    top:-40%;
+    left:10%;
+
+
+}
+.ord{
+    display:flex;flex-direction:none;text-decoration:none;list-style:none;height:100%;width:80%;position:absolute;left:12%;gap:5%;padding:0 2%;
+}
+.bgg{
+    
+            position: relative;
+            width: 213px;
+            height: 190px;
+            top: 5%;
+            background-image: url(bgggg.png);
+
+}
+body{
+    overflow-x:hidden;
+} 
+.resb:hover{
+    transform: scale(1.1);
+    z-index:3;
+    transition:1s;
+} 
+.head{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height:7%;
+left: 0px;
+top: 0px;
+color:white;
+
+background: #2B1E15;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hovbutton:hover{
+    transform: scale(1.1);
+    z-index:3;
+    transition:1s;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+.beanery{
+   
+    position: absolute;
+    
+    left: 2%;
+    top: 5%;
+    
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.cont{
+    height:100%;
+    border:2px solid white;
+}
+
+.righthead{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 30px;
+    font-family:'limelight';
+    font-size:15px;
+    white-space: nowrap;
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerim:hover{
+    transform:scale(1.15);
+    z-index:3;
+    transition:1s;
+}
+
+
+
+
+
+footer{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 70%;
+left: 0px;
+top:240%;
+
+background:#2B1E15;
+border: 1px solid #1B0F07;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+.contt{
+    border:10px solid red;
+}
